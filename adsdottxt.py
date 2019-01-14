@@ -1,10 +1,6 @@
 import os
-import io
 import requests
 import pandas as pd
-import numpy as np
-import csv
-import mimetypes
 
 domains=pd.read_csv('domains.csv', sep=',',header=0, encoding='latin-1') 
 
