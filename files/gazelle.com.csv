@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Gazelle - 404</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      font-size: 125%;
+      font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+      margin: 30px;
+      text-align: center;
+    }
+
+    .gazelle-logo,
+    .four-oh-four {
+      display: block;
+      margin: 0 auto;
+    }
+
+    .gazelle-logo {
+      margin-bottom: 30px;
+    }
+
+    .four-oh-four {
+      font-size: 3em;
+      vertical-align: bottom;
+      line-height: 81px;
+      color: #f78e1e;
+    }
+
+    h1 {
+      clear: both;
+      margin-top: 0;
+      margin-bottom: 40px;
+      font-size: 1.1em;
+      border-bottom: 2px solid #dcdbda;
+      padding-bottom: 5px;
+      color: #8a8887;
+    }
+
+    p {
+      line-height: 1.5;
+      font-size: 0.6em;
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: #00a6b5;
+    }
+
+    @media (min-width: 768px) {
+      body {
+        text-align: left;
+      }
+
+      .gazelle-logo,
+      .four-oh-four {
+        float: left;
+      }
+
+      .four-oh-four {
+        margin-left: 140px;
+      }
+
+      h1 {
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1586425-58']);
+    var path = '/404-not-found' + document.location.pathname + document.location.search;
+    _gaq.push(['_trackPageview', path]);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+    })();
+  </script>
+  <script src="http://www.google-analytics.com/ga.js" async="" type="text/javascript"></script>
+</head>
+
+<body>
+  <img src="/gazelle_logo_with_tagline.png" class="gazelle-logo" width="218" height="62" alt="Gazelle" />
+
+  <span class="four-oh-four">404</span>
+
+    <h1>The page you were looking for doesn't exist.</h1>
+    <p>Sorry for the inconvenience.  <a href="/">Get back to our home page</a>.</p>
+
+    <p>If you require further immediate assistance, please <a href="https://www.gazelle.com/help/contact_us" target="_blank">reach out</a> to us.</p>
+
+</body>
+</html>
